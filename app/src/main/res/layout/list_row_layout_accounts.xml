@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="3dip"
+                  android:layout_alignParentStart="true"
+                  android:layout_marginEnd="5dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:src="@mipmap/ic_money"/>
+
+    </LinearLayout>
+
+    <!-- Nome da Conta -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="Nome da Conta"
+        android:textColor="@drawable/list_item_text_selector"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="sans" />
+
+    <!-- Tipo da Conta -->
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="Tipo da Conta"
+        android:textColor="@drawable/list_item_text_selector"
+        android:textSize="12sp" />
+
+    <!-- Saldo Atual -->
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/type"
+        android:layout_alignBottom="@+id/type"
+        android:layout_alignParentEnd="true"
+        android:text="12.600,50"
+        android:textColor="@drawable/list_item_text_selector"
+        android:textSize="12sp" />
+
+</RelativeLayout>

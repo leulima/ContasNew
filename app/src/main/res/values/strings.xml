@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Contas</string>
+    <string name="app_credits">Esta aplicação permite controlar as movimentações financeiras, através de controle de conta corrente ou poupança e cartões e credito.\n\n Desenvolvido por Leandro Lima.\n http://www.gigaspace.com.br</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">Procurar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="cadastro_conta">Cadastro de Conta</string>
+    <string name="nome_conta">Nome da Conta</string>
+    <string name="tipo_conta">Tipo da Conta</string>
+    <string name="valor_atual">Valor Atual</string>
+    <string name="save">Salvar</string>
+    <string name="add_account">Adicionar Conta</string>
+    <string name="remove_all">Remover Todas</string>
+    <string name="number">Número</string>
+    <string name="about">Sobre</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancela</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="categories">Categorias</string>
+    <string name="category">Categoria</string>
+    <string name="subcategory">Subcategoria</string>
+    <string name="subcategories">Subcategorias</string>
+    <string name="expenses">Despesas</string>
+    <string name="incomes">Receitas</string>
+    <string name="add_category">Criar nova categoria</string>
+    <string name="add_subcategory">Criar nova subcategoria</string>
+    <string name="edit_category">Editar categoria</string>
+    <string name="edit_subcategory">Editar subcategoria</string>
+    <string name="delete_category">Excluir categoria</string>
+    <string name="delete_subcategory">Excluir subcategoria</string>
+    <string name="description">Descrição</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="not_implemented">Não implementado ainda.</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="graph">Gráfico</string>
+    <string name="saved">salvo</string>
+    <string name="deleted">excluido</string>
+    <string name="search_hint">Procurar</string>
+
+    <string name="checking_account">Conta Corrente</string>
+    <string name="savings">Poupança</string>
+    <string name="credit_card">Cartão de Crédito</string>
+
+    <string-array name="tipos_conta">
+        <item>@string/checking_account</item>
+        <item>@string/savings</item>
+        <item>@string/credit_card</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
